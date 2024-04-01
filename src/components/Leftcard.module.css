@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.leftcard {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.leftcardcontent {
+  width: 17.5rem;
+  height: 410px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1), 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
+  filter: opacity(0.5);
+}
+
+.uppercont {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.leftcardlogo {
+  width: 55px;
+  height: 55px;
+  border-radius: 25px;
+  background: url("../images/Group_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.leftcardheading {
+  font-weight: 400;
+  line-height: 2.8rem;
+  font-size: 2rem;
+  margin-top: 20px;
+  font-family: "Poppins", serif;
+}
+
+.leftcardheading span {
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 2.125rem;
+  font-family: "EB Garamond", serif;
+}
+.leftcardtext {
+  margin-top: 20px;
+  color: #484a4d;
+  font-size: 16.5px;
+  line-height: 1.4rem;
+  font-family: "Poppins", serif;
+  text-align: left;
+}
+
+.leftcardtext a {
+  color: #484a4d;
+  text-decoration: underline;
+}
+
+.buttonbox {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #484a4d52;
+}
+
+.buttonbox button {
+  font-size: 1rem;
+  width: 140px;
+  height: 40px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.buttonbox button:hover {
+  background-color: fixed;
+}
+
+@media only screen and (max-width: 600px) {
+  .leftcard {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .leftcardcontent {
+    width: 17.5rem;
+    height: 410px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1), 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+    background: #fff;
+    filter: opacity(0.5);
+  }
+  .uppercont {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .leftcardlogo {
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    background: url("../images/Group_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px)
+{
+  .leftcard {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .leftcardcontent {
+    width: 17.5rem;
+    height: 410px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1), 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+    background: #fff;
+    filter: opacity(0.5);
+  }
+  .uppercont {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .leftcardlogo {
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    background: url("../images/Group_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+}
+
+@media only screen and (min-width: 1200px)
+{
+  .leftcard {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .leftcardcontent {
+    width: 17.5rem;
+    height: 410px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1), 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+    background: #fff;
+    filter: opacity(0.5);
+  }
+  
+  .uppercont {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .leftcardlogo {
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    background: url("../images/Group_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .leftcardheading {
+    font-weight: 400;
+    line-height: 2.8rem;
+    font-size: 2rem;
+    margin-top: 20px;
+    font-family: "Poppins", serif;
+  }
+  
+  .leftcardheading span {
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 2.125rem;
+    font-family: "EB Garamond", serif;
+  }
+  .leftcardtext {
+    margin-top: 20px;
+    color: #484a4d;
+    font-size: 16.5px;
+    line-height: 1.4rem;
+    font-family: "Poppins", serif;
+    text-align: left;
+  }
+  
+  .leftcardtext a {
+    color: #484a4d;
+    text-decoration: underline;
+  }
+  
+  .buttonbox {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #484a4d52;
+  }
+  
+  .buttonbox button {
+    font-size: 1rem;
+    width: 140px;
+    height: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .buttonbox button:hover {
+    background-color: fixed;
+  }
+}
